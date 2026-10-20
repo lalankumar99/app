@@ -1,0 +1,26 @@
+name: coaching_app_template
+description: A modular, customizable Flutter Coaching Institute App Template.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+
+  # जो भी क्लाइंट ओरिजिनल ऐप मांगे, तब नीचे की Firebase लाइब्रेरी से '#' हटा दें (Uncomment करें):
+  # firebase_core: ^2.27.0
+  # firebase_auth: ^4.17.8
+  # cloud_firestore: ^4.15.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  
